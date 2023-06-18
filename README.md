@@ -18,16 +18,14 @@ Right now its working with Cubase (with the included template)
 
 I use loopMIDI as virtual midi cables (maybe its possible to create this in python)
 
-![midi.PNG](https://bitbucket.org/repo/6pXdan/images/1764987648-midi.PNG)
-
 
 # **Dependencies** #
 
-1  https://github.com/nmap/npcap/releases/tag/v0.80
+1  https://npcap.com/#download
 
 2  PIP install pip install python-rtmidi
 
-3  loopMIDI (virtual midi cable)
+3  loopMIDI (virtual midi cable) -> https://www.tobias-erichsen.de/software/loopmidi.html
 
 
 # Video time !!! #
