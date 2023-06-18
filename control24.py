@@ -5,7 +5,7 @@ import logging
 import math
 from rtmidi.midiutil import open_midiport
 import rtmidi
-
+# https://npcap.com/#download
 from winpcapy.winpcapy_types import *
 
 log = logging.getLogger('test_midiin_callback')
@@ -27,9 +27,6 @@ midi_out.open_port(midiout_port_nr)
 
 midi_loopback = rtmidi.MidiOut()
 midi_loopback.open_port(10)
-
-# https://github.com/nmap/npcap/releases/tag/v0.80
-##pip install python-rtmidi
 
 mac_computer = [0x70, 0x8B, 0xCD, 0xBA, 0x33, 0xDF]  # mac add of your computer
 
