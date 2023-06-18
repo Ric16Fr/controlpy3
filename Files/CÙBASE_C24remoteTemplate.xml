@@ -1,0 +1,1165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<remotedescription version="1.1">
+<ctrltable name="Standard MIDI">
+<ctrl><name>Fader 1</name><stat>176</stat><chan>0</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 2</name><stat>176</stat><chan>1</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 3</name><stat>176</stat><chan>2</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 4</name><stat>176</stat><chan>3</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 5</name><stat>176</stat><chan>4</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 6</name><stat>176</stat><chan>5</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 7</name><stat>176</stat><chan>6</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 8</name><stat>176</stat><chan>7</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 9</name><stat>176</stat><chan>8</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 10</name><stat>176</stat><chan>9</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 11</name><stat>176</stat><chan>10</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 12</name><stat>176</stat><chan>11</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 13</name><stat>176</stat><chan>12</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 14</name><stat>176</stat><chan>13</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 15</name><stat>176</stat><chan>14</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 16</name><stat>176</stat><chan>15</chan><addr>7</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Pan 1</name><stat>176</stat><chan>0</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 2</name><stat>176</stat><chan>1</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 3</name><stat>176</stat><chan>2</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 4</name><stat>176</stat><chan>3</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 5</name><stat>176</stat><chan>4</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 6</name><stat>176</stat><chan>5</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 7</name><stat>176</stat><chan>6</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 8</name><stat>176</stat><chan>7</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 9</name><stat>176</stat><chan>8</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 10</name><stat>176</stat><chan>9</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 11</name><stat>176</stat><chan>10</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 12</name><stat>176</stat><chan>11</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 13</name><stat>176</stat><chan>12</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 14</name><stat>176</stat><chan>13</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 15</name><stat>176</stat><chan>14</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 16</name><stat>176</stat><chan>15</chan><addr>10</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Mute 1</name><stat>176</stat><chan>0</chan><addr>64</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Mute 2</name><stat>176</stat><chan>1</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 3</name><stat>176</stat><chan>2</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 4</name><stat>176</stat><chan>3</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 5</name><stat>176</stat><chan>4</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 6</name><stat>176</stat><chan>5</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 7</name><stat>176</stat><chan>6</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 8</name><stat>176</stat><chan>7</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 9</name><stat>176</stat><chan>8</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 10</name><stat>176</stat><chan>9</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 11</name><stat>176</stat><chan>10</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 12</name><stat>176</stat><chan>11</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 13</name><stat>176</stat><chan>12</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 14</name><stat>176</stat><chan>13</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 15</name><stat>176</stat><chan>14</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Mute 16</name><stat>176</stat><chan>15</chan><addr>64</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 1</name><stat>176</stat><chan>0</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 2</name><stat>176</stat><chan>1</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 3</name><stat>176</stat><chan>2</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 4</name><stat>176</stat><chan>3</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 5</name><stat>176</stat><chan>4</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 6</name><stat>176</stat><chan>5</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 7</name><stat>176</stat><chan>6</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 8</name><stat>176</stat><chan>7</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 9</name><stat>176</stat><chan>8</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 10</name><stat>176</stat><chan>9</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 11</name><stat>176</stat><chan>10</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 12</name><stat>176</stat><chan>11</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 13</name><stat>176</stat><chan>12</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 14</name><stat>176</stat><chan>13</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 15</name><stat>176</stat><chan>14</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-1 16</name><stat>176</stat><chan>15</chan><addr>12</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 1</name><stat>176</stat><chan>0</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 2</name><stat>176</stat><chan>1</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 3</name><stat>176</stat><chan>2</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 4</name><stat>176</stat><chan>3</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 5</name><stat>176</stat><chan>4</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 6</name><stat>176</stat><chan>5</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 7</name><stat>176</stat><chan>6</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 8</name><stat>176</stat><chan>7</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 9</name><stat>176</stat><chan>8</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 10</name><stat>176</stat><chan>9</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 11</name><stat>176</stat><chan>10</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 12</name><stat>176</stat><chan>11</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 13</name><stat>176</stat><chan>12</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 14</name><stat>176</stat><chan>13</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 15</name><stat>176</stat><chan>14</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Send-2 16</name><stat>176</stat><chan>15</chan><addr>13</addr><max>127</max><flags>1</flags></ctrl>
+<ctrl><name>Fader 17</name><stat>176</stat><chan>0</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 18</name><stat>176</stat><chan>1</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 19</name><stat>176</stat><chan>2</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 20</name><stat>176</stat><chan>3</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 21</name><stat>176</stat><chan>4</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 22</name><stat>176</stat><chan>5</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 23</name><stat>176</stat><chan>6</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Fader 24</name><stat>176</stat><chan>7</chan><addr>8</addr><max>127</max><flags>3</flags></ctrl>
+<ctrl><name>Pan 17</name><stat>176</stat><chan>0</chan><addr>11</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 18</name><stat>176</stat><chan>1</chan><addr>11</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 19</name><stat>176</stat><chan>2</chan><addr>11</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 20</name><stat>176</stat><chan>3</chan><addr>11</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 21</name><stat>176</stat><chan>4</chan><addr>11</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 22</name><stat>176</stat><chan>5</chan><addr>11</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 23</name><stat>176</stat><chan>6</chan><addr>11</addr><max>127</max><flags>7</flags></ctrl>
+<ctrl><name>Pan 24</name><stat>176</stat><chan>7</chan><addr>11</addr><max>127</max><flags>7</flags></ctrl>
+</ctrltable>
+<bank name="VST 1-16">
+<entry ctrl="Fader 1">
+<value><device>VST Mixer</device><chan>0</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 2">
+<value><device>VST Mixer</device><chan>1</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 3">
+<value><device>VST Mixer</device><chan>2</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 4">
+<value><device>VST Mixer</device><chan>3</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 5">
+<value><device>VST Mixer</device><chan>4</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 6">
+<value><device>VST Mixer</device><chan>5</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 7">
+<value><device>VST Mixer</device><chan>6</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 8">
+<value><device>VST Mixer</device><chan>7</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 9">
+<value><device>VST Mixer</device><chan>8</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 10">
+<value><device>VST Mixer</device><chan>9</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 11">
+<value><device>VST Mixer</device><chan>10</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 12">
+<value><device>VST Mixer</device><chan>11</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 13">
+<value><device>VST Mixer</device><chan>12</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 14">
+<value><device>VST Mixer</device><chan>13</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 15">
+<value><device>VST Mixer</device><chan>14</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 16">
+<value><device>VST Mixer</device><chan>15</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 1">
+<value><device>VST Mixer</device><chan>0</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 2">
+<value><device>VST Mixer</device><chan>1</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 3">
+<value><device>VST Mixer</device><chan>2</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 4">
+<value><device>VST Mixer</device><chan>3</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 5">
+<value><device>VST Mixer</device><chan>4</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 6">
+<value><device>VST Mixer</device><chan>5</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 7">
+<value><device>VST Mixer</device><chan>6</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 8">
+<value><device>VST Mixer</device><chan>7</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 9">
+<value><device>VST Mixer</device><chan>8</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 10">
+<value><device>VST Mixer</device><chan>9</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 11">
+<value><device>VST Mixer</device><chan>10</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 12">
+<value><device>VST Mixer</device><chan>11</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 13">
+<value><device>VST Mixer</device><chan>12</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 14">
+<value><device>VST Mixer</device><chan>13</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 15">
+<value><device>VST Mixer</device><chan>14</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 16">
+<value><device>VST Mixer</device><chan>15</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Mute 1">
+<value><device>VST Mixer</device><chan>0</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 2">
+<value><device>VST Mixer</device><chan>1</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 3">
+<value><device>VST Mixer</device><chan>2</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 4">
+<value><device>VST Mixer</device><chan>3</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 5">
+<value><device>VST Mixer</device><chan>4</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 6">
+<value><device>VST Mixer</device><chan>5</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 7">
+<value><device>VST Mixer</device><chan>6</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 8">
+<value><device>VST Mixer</device><chan>7</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 9">
+<value><device>VST Mixer</device><chan>8</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 10">
+<value><device>VST Mixer</device><chan>9</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 11">
+<value><device>VST Mixer</device><chan>10</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 12">
+<value><device>VST Mixer</device><chan>11</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 13">
+<value><device>VST Mixer</device><chan>12</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 14">
+<value><device>VST Mixer</device><chan>13</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 15">
+<value><device>VST Mixer</device><chan>14</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 16">
+<value><device>VST Mixer</device><chan>15</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Send-1 1">
+<value><device>VST Mixer</device><chan>0</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 2">
+<value><device>VST Mixer</device><chan>1</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 3">
+<value><device>VST Mixer</device><chan>2</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 4">
+<value><device>VST Mixer</device><chan>3</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 5">
+<value><device>VST Mixer</device><chan>4</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 6">
+<value><device>VST Mixer</device><chan>5</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 7">
+<value><device>VST Mixer</device><chan>6</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 8">
+<value><device>VST Mixer</device><chan>7</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 9">
+<value><device>VST Mixer</device><chan>8</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 10">
+<value><device>VST Mixer</device><chan>9</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 11">
+<value><device>VST Mixer</device><chan>10</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 12">
+<value><device>VST Mixer</device><chan>11</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 13">
+<value><device>VST Mixer</device><chan>12</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 14">
+<value><device>VST Mixer</device><chan>13</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 15">
+<value><device>VST Mixer</device><chan>14</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 16">
+<value><device>VST Mixer</device><chan>15</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 1">
+<value><device>VST Mixer</device><chan>0</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 2">
+<value><device>VST Mixer</device><chan>1</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 3">
+<value><device>VST Mixer</device><chan>2</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 4">
+<value><device>VST Mixer</device><chan>3</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 5">
+<value><device>VST Mixer</device><chan>4</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 6">
+<value><device>VST Mixer</device><chan>5</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 7">
+<value><device>VST Mixer</device><chan>6</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 8">
+<value><device>VST Mixer</device><chan>7</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 9">
+<value><device>VST Mixer</device><chan>8</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 10">
+<value><device>VST Mixer</device><chan>9</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 11">
+<value><device>VST Mixer</device><chan>10</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 12">
+<value><device>VST Mixer</device><chan>11</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 13">
+<value><device>VST Mixer</device><chan>12</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 14">
+<value><device>VST Mixer</device><chan>13</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 15">
+<value><device>VST Mixer</device><chan>14</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 16">
+<value><device>VST Mixer</device><chan>15</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 17">
+<value><device>VST Mixer</device><chan>16</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 18">
+<value><device>VST Mixer</device><chan>17</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 19">
+<value><device>VST Mixer</device><chan>18</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 20">
+<value><device>VST Mixer</device><chan>19</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 21">
+<value><device>VST Mixer</device><chan>20</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 22">
+<value><device>VST Mixer</device><chan>21</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 23">
+<value><device>VST Mixer</device><chan>22</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 24">
+<value><device>VST Mixer</device><chan>23</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 17">
+<value><device>VST Mixer</device><chan>16</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 18">
+<value><device>VST Mixer</device><chan>17</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 19">
+<value><device>VST Mixer</device><chan>18</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 20">
+<value><device>VST Mixer</device><chan>19</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 21">
+<value><device>VST Mixer</device><chan>20</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 22">
+<value><device>VST Mixer</device><chan>21</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 23">
+<value><device>VST Mixer</device><chan>22</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 24">
+<value><device>VST Mixer</device><chan>23</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+</bank>
+<bank name="VST 17-32">
+<entry ctrl="Fader 1">
+<value><device>VST Mixer</device><chan>16</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 2">
+<value><device>VST Mixer</device><chan>17</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 3">
+<value><device>VST Mixer</device><chan>18</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 4">
+<value><device>VST Mixer</device><chan>19</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 5">
+<value><device>VST Mixer</device><chan>20</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 6">
+<value><device>VST Mixer</device><chan>21</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 7">
+<value><device>VST Mixer</device><chan>22</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 8">
+<value><device>VST Mixer</device><chan>23</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 9">
+<value><device>VST Mixer</device><chan>24</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 10">
+<value><device>VST Mixer</device><chan>25</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 11">
+<value><device>VST Mixer</device><chan>26</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 12">
+<value><device>VST Mixer</device><chan>27</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 13">
+<value><device>VST Mixer</device><chan>28</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 14">
+<value><device>VST Mixer</device><chan>29</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 15">
+<value><device>VST Mixer</device><chan>30</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 16">
+<value><device>VST Mixer</device><chan>31</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 1">
+<value><device>VST Mixer</device><chan>16</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 2">
+<value><device>VST Mixer</device><chan>17</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 3">
+<value><device>VST Mixer</device><chan>18</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 4">
+<value><device>VST Mixer</device><chan>19</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 5">
+<value><device>VST Mixer</device><chan>20</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 6">
+<value><device>VST Mixer</device><chan>21</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 7">
+<value><device>VST Mixer</device><chan>22</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 8">
+<value><device>VST Mixer</device><chan>23</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 9">
+<value><device>VST Mixer</device><chan>24</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 10">
+<value><device>VST Mixer</device><chan>25</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 11">
+<value><device>VST Mixer</device><chan>26</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 12">
+<value><device>VST Mixer</device><chan>27</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 13">
+<value><device>VST Mixer</device><chan>28</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 14">
+<value><device>VST Mixer</device><chan>29</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 15">
+<value><device>VST Mixer</device><chan>30</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 16">
+<value><device>VST Mixer</device><chan>31</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Mute 1">
+<value><device>VST Mixer</device><chan>16</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 2">
+<value><device>VST Mixer</device><chan>17</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 3">
+<value><device>VST Mixer</device><chan>18</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 4">
+<value><device>VST Mixer</device><chan>19</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 5">
+<value><device>VST Mixer</device><chan>20</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 6">
+<value><device>VST Mixer</device><chan>21</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 7">
+<value><device>VST Mixer</device><chan>22</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 8">
+<value><device>VST Mixer</device><chan>23</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 9">
+<value><device>VST Mixer</device><chan>24</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 10">
+<value><device>VST Mixer</device><chan>25</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 11">
+<value><device>VST Mixer</device><chan>26</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 12">
+<value><device>VST Mixer</device><chan>27</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 13">
+<value><device>VST Mixer</device><chan>28</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 14">
+<value><device>VST Mixer</device><chan>29</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 15">
+<value><device>VST Mixer</device><chan>30</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 16">
+<value><device>VST Mixer</device><chan>31</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Send-1 1">
+<value><device>VST Mixer</device><chan>16</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 2">
+<value><device>VST Mixer</device><chan>17</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 3">
+<value><device>VST Mixer</device><chan>18</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 4">
+<value><device>VST Mixer</device><chan>19</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 5">
+<value><device>VST Mixer</device><chan>20</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 6">
+<value><device>VST Mixer</device><chan>21</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 7">
+<value><device>VST Mixer</device><chan>22</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 8">
+<value><device>VST Mixer</device><chan>23</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 9">
+<value><device>VST Mixer</device><chan>24</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 10">
+<value><device>VST Mixer</device><chan>25</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 11">
+<value><device>VST Mixer</device><chan>26</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 12">
+<value><device>VST Mixer</device><chan>27</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 13">
+<value><device>VST Mixer</device><chan>28</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 14">
+<value><device>VST Mixer</device><chan>29</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 15">
+<value><device>VST Mixer</device><chan>30</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 16">
+<value><device>VST Mixer</device><chan>31</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 1">
+<value><device>VST Mixer</device><chan>16</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 2">
+<value><device>VST Mixer</device><chan>17</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 3">
+<value><device>VST Mixer</device><chan>18</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 4">
+<value><device>VST Mixer</device><chan>19</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 5">
+<value><device>VST Mixer</device><chan>20</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 6">
+<value><device>VST Mixer</device><chan>21</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 7">
+<value><device>VST Mixer</device><chan>22</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 8">
+<value><device>VST Mixer</device><chan>23</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 9">
+<value><device>VST Mixer</device><chan>24</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 10">
+<value><device>VST Mixer</device><chan>25</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 11">
+<value><device>VST Mixer</device><chan>26</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 12">
+<value><device>VST Mixer</device><chan>27</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 13">
+<value><device>VST Mixer</device><chan>28</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 14">
+<value><device>VST Mixer</device><chan>29</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 15">
+<value><device>VST Mixer</device><chan>30</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 16">
+<value><device>VST Mixer</device><chan>31</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 17">
+</entry>
+<entry ctrl="Pan 18">
+</entry>
+<entry ctrl="Pan 19">
+</entry>
+<entry ctrl="Pan 20">
+</entry>
+<entry ctrl="Pan 21">
+</entry>
+<entry ctrl="Pan 22">
+</entry>
+<entry ctrl="Pan 23">
+</entry>
+<entry ctrl="Pan 24">
+</entry>
+</bank>
+<bank name="VST 33-48">
+<entry ctrl="Fader 1">
+<value><device>VST Mixer</device><chan>32</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 2">
+<value><device>VST Mixer</device><chan>33</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 3">
+<value><device>VST Mixer</device><chan>34</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 4">
+<value><device>VST Mixer</device><chan>35</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 5">
+<value><device>VST Mixer</device><chan>36</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 6">
+<value><device>VST Mixer</device><chan>37</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 7">
+<value><device>VST Mixer</device><chan>38</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 8">
+<value><device>VST Mixer</device><chan>39</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 9">
+<value><device>VST Mixer</device><chan>40</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 10">
+<value><device>VST Mixer</device><chan>41</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 11">
+<value><device>VST Mixer</device><chan>42</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 12">
+<value><device>VST Mixer</device><chan>43</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 13">
+<value><device>VST Mixer</device><chan>44</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 14">
+<value><device>VST Mixer</device><chan>45</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 15">
+<value><device>VST Mixer</device><chan>46</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 16">
+<value><device>VST Mixer</device><chan>47</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 1">
+<value><device>VST Mixer</device><chan>32</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 2">
+<value><device>VST Mixer</device><chan>33</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 3">
+<value><device>VST Mixer</device><chan>34</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 4">
+<value><device>VST Mixer</device><chan>35</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 5">
+<value><device>VST Mixer</device><chan>36</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 6">
+<value><device>VST Mixer</device><chan>37</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 7">
+<value><device>VST Mixer</device><chan>38</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 8">
+<value><device>VST Mixer</device><chan>39</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 9">
+<value><device>VST Mixer</device><chan>40</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 10">
+<value><device>VST Mixer</device><chan>41</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 11">
+<value><device>VST Mixer</device><chan>42</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 12">
+<value><device>VST Mixer</device><chan>43</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 13">
+<value><device>VST Mixer</device><chan>44</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 14">
+<value><device>VST Mixer</device><chan>45</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 15">
+<value><device>VST Mixer</device><chan>46</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 16">
+<value><device>VST Mixer</device><chan>47</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Mute 1">
+<value><device>VST Mixer</device><chan>32</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 2">
+<value><device>VST Mixer</device><chan>33</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 3">
+<value><device>VST Mixer</device><chan>34</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 4">
+<value><device>VST Mixer</device><chan>35</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 5">
+<value><device>VST Mixer</device><chan>36</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 6">
+<value><device>VST Mixer</device><chan>37</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 7">
+<value><device>VST Mixer</device><chan>38</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 8">
+<value><device>VST Mixer</device><chan>39</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 9">
+<value><device>VST Mixer</device><chan>40</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 10">
+<value><device>VST Mixer</device><chan>41</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 11">
+<value><device>VST Mixer</device><chan>42</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 12">
+<value><device>VST Mixer</device><chan>43</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 13">
+<value><device>VST Mixer</device><chan>44</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 14">
+<value><device>VST Mixer</device><chan>45</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 15">
+<value><device>VST Mixer</device><chan>46</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 16">
+<value><device>VST Mixer</device><chan>47</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Send-1 1">
+<value><device>VST Mixer</device><chan>32</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 2">
+<value><device>VST Mixer</device><chan>33</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 3">
+<value><device>VST Mixer</device><chan>34</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 4">
+<value><device>VST Mixer</device><chan>35</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 5">
+<value><device>VST Mixer</device><chan>36</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 6">
+<value><device>VST Mixer</device><chan>37</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 7">
+<value><device>VST Mixer</device><chan>38</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 8">
+<value><device>VST Mixer</device><chan>39</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 9">
+<value><device>VST Mixer</device><chan>40</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 10">
+<value><device>VST Mixer</device><chan>41</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 11">
+<value><device>VST Mixer</device><chan>42</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 12">
+<value><device>VST Mixer</device><chan>43</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 13">
+<value><device>VST Mixer</device><chan>44</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 14">
+<value><device>VST Mixer</device><chan>45</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 15">
+<value><device>VST Mixer</device><chan>46</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 16">
+<value><device>VST Mixer</device><chan>47</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 1">
+<value><device>VST Mixer</device><chan>32</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 2">
+<value><device>VST Mixer</device><chan>33</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 3">
+<value><device>VST Mixer</device><chan>34</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 4">
+<value><device>VST Mixer</device><chan>35</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 5">
+<value><device>VST Mixer</device><chan>36</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 6">
+<value><device>VST Mixer</device><chan>37</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 7">
+<value><device>VST Mixer</device><chan>38</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 8">
+<value><device>VST Mixer</device><chan>39</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 9">
+<value><device>VST Mixer</device><chan>40</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 10">
+<value><device>VST Mixer</device><chan>41</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 11">
+<value><device>VST Mixer</device><chan>42</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 12">
+<value><device>VST Mixer</device><chan>43</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 13">
+<value><device>VST Mixer</device><chan>44</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 14">
+<value><device>VST Mixer</device><chan>45</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 15">
+<value><device>VST Mixer</device><chan>46</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 16">
+<value><device>VST Mixer</device><chan>47</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 17">
+</entry>
+<entry ctrl="Pan 18">
+</entry>
+<entry ctrl="Pan 19">
+</entry>
+<entry ctrl="Pan 20">
+</entry>
+<entry ctrl="Pan 21">
+</entry>
+<entry ctrl="Pan 22">
+</entry>
+<entry ctrl="Pan 23">
+</entry>
+<entry ctrl="Pan 24">
+</entry>
+</bank>
+<bank name="VST 49-64">
+<entry ctrl="Fader 1">
+<value><device>VST Mixer</device><chan>48</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 2">
+<value><device>VST Mixer</device><chan>49</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 3">
+<value><device>VST Mixer</device><chan>50</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 4">
+<value><device>VST Mixer</device><chan>51</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 5">
+<value><device>VST Mixer</device><chan>52</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 6">
+<value><device>VST Mixer</device><chan>53</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 7">
+<value><device>VST Mixer</device><chan>54</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 8">
+<value><device>VST Mixer</device><chan>55</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 9">
+<value><device>VST Mixer</device><chan>56</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 10">
+<value><device>VST Mixer</device><chan>57</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 11">
+<value><device>VST Mixer</device><chan>58</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 12">
+<value><device>VST Mixer</device><chan>59</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 13">
+<value><device>VST Mixer</device><chan>60</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 14">
+<value><device>VST Mixer</device><chan>61</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 15">
+<value><device>VST Mixer</device><chan>62</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Fader 16">
+<value><device>VST Mixer</device><chan>63</chan><name>volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 1">
+<value><device>VST Mixer</device><chan>48</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 2">
+<value><device>VST Mixer</device><chan>49</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 3">
+<value><device>VST Mixer</device><chan>50</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 4">
+<value><device>VST Mixer</device><chan>51</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 5">
+<value><device>VST Mixer</device><chan>52</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 6">
+<value><device>VST Mixer</device><chan>53</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 7">
+<value><device>VST Mixer</device><chan>54</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 8">
+<value><device>VST Mixer</device><chan>55</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 9">
+<value><device>VST Mixer</device><chan>56</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 10">
+<value><device>VST Mixer</device><chan>57</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 11">
+<value><device>VST Mixer</device><chan>58</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 12">
+<value><device>VST Mixer</device><chan>59</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 13">
+<value><device>VST Mixer</device><chan>60</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 14">
+<value><device>VST Mixer</device><chan>61</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 15">
+<value><device>VST Mixer</device><chan>62</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 16">
+<value><device>VST Mixer</device><chan>63</chan><name>panner:panX</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Mute 1">
+<value><device>VST Mixer</device><chan>48</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 2">
+<value><device>VST Mixer</device><chan>49</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 3">
+<value><device>VST Mixer</device><chan>50</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 4">
+<value><device>VST Mixer</device><chan>51</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 5">
+<value><device>VST Mixer</device><chan>52</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 6">
+<value><device>VST Mixer</device><chan>53</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 7">
+<value><device>VST Mixer</device><chan>54</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 8">
+<value><device>VST Mixer</device><chan>55</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 9">
+<value><device>VST Mixer</device><chan>56</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 10">
+<value><device>VST Mixer</device><chan>57</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 11">
+<value><device>VST Mixer</device><chan>58</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 12">
+<value><device>VST Mixer</device><chan>59</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 13">
+<value><device>VST Mixer</device><chan>60</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 14">
+<value><device>VST Mixer</device><chan>61</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 15">
+<value><device>VST Mixer</device><chan>62</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Mute 16">
+<value><device>VST Mixer</device><chan>63</chan><name>mute</name><flags>257</flags></value>
+</entry>
+<entry ctrl="Send-1 1">
+<value><device>VST Mixer</device><chan>48</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 2">
+<value><device>VST Mixer</device><chan>49</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 3">
+<value><device>VST Mixer</device><chan>50</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 4">
+<value><device>VST Mixer</device><chan>51</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 5">
+<value><device>VST Mixer</device><chan>52</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 6">
+<value><device>VST Mixer</device><chan>53</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 7">
+<value><device>VST Mixer</device><chan>54</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 8">
+<value><device>VST Mixer</device><chan>55</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 9">
+<value><device>VST Mixer</device><chan>56</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 10">
+<value><device>VST Mixer</device><chan>57</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 11">
+<value><device>VST Mixer</device><chan>58</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 12">
+<value><device>VST Mixer</device><chan>59</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 13">
+<value><device>VST Mixer</device><chan>60</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 14">
+<value><device>VST Mixer</device><chan>61</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 15">
+<value><device>VST Mixer</device><chan>62</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-1 16">
+<value><device>VST Mixer</device><chan>63</chan><name>sends/slot1:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 1">
+<value><device>VST Mixer</device><chan>48</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 2">
+<value><device>VST Mixer</device><chan>49</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 3">
+<value><device>VST Mixer</device><chan>50</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 4">
+<value><device>VST Mixer</device><chan>51</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 5">
+<value><device>VST Mixer</device><chan>52</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 6">
+<value><device>VST Mixer</device><chan>53</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 7">
+<value><device>VST Mixer</device><chan>54</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 8">
+<value><device>VST Mixer</device><chan>55</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 9">
+<value><device>VST Mixer</device><chan>56</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 10">
+<value><device>VST Mixer</device><chan>57</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 11">
+<value><device>VST Mixer</device><chan>58</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 12">
+<value><device>VST Mixer</device><chan>59</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 13">
+<value><device>VST Mixer</device><chan>60</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 14">
+<value><device>VST Mixer</device><chan>61</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 15">
+<value><device>VST Mixer</device><chan>62</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Send-2 16">
+<value><device>VST Mixer</device><chan>63</chan><name>sends/slot2:volume</name><flags>0</flags></value>
+</entry>
+<entry ctrl="Pan 17">
+</entry>
+<entry ctrl="Pan 18">
+</entry>
+<entry ctrl="Pan 19">
+</entry>
+<entry ctrl="Pan 20">
+</entry>
+<entry ctrl="Pan 21">
+</entry>
+<entry ctrl="Pan 22">
+</entry>
+<entry ctrl="Pan 23">
+</entry>
+<entry ctrl="Pan 24">
+</entry>
+</bank>
+</remotedescription>
