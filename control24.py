@@ -1,19 +1,17 @@
-from ctypes import *
-from winpcapy import *
 import time
 import threading
 import string
-import sys
 import logging
 import math
+from rtmidi.midiutil import open_midiport
+import rtmidi
+
+from winpcapy.winpcapy_types import *
 
 log = logging.getLogger('test_midiin_callback')
 logging.basicConfig(level=logging.DEBUG)
 
-from rtmidi.midiutil import open_midiport
-import rtmidi
-
-#"cubase" or "mackie" or  "hui" mode
+# "cubase" or "mackie" or  "hui" mode
 midi_protocol = "hui"
 
 midiin_port = "C24 7"
@@ -137,25 +135,27 @@ def cubase_generic(message):
 def hui(event, last_event):
     message, deltatime = event
 
-    #fader vol
+    # fader vol
     if message[0] == 176 and message[1] in range(0, 8) or message[1] in range(32, 40):
         last_message, last_deltatime = last_event
         if last_deltatime == deltatime and last_message[0] == 176:
             send_net_packet(1, [0xb0, last_message[1], last_message[2], message[1], message[2]])
 
-    #Pan - values from 17 - 27
+    # Pan - values from 17 - 27
     if message[0] == 176 and message[1] in range(16, 24):
         pan = message[2] - 16
         pan_ch = message[1] - 16
         send_net_packet(1, [0xf0, 0x13, 0x01, 0x00, pan_ch, pan_scale_l2[pan], pan_scale_r2[pan], 0xf7])
 
-    #VU meter
+    # VU meter
     if message[0] == 160:
         Vu_ch = message[1]
-        if message[2] in range (0,16):
-            send_net_packet(1, [0xf0, 0x13, 0x01, 0x10, Vu_ch, vu_scale_msb[message[2]], vu_scale_lsb[message[2]], 0xf7])
-        if message[2] in range (16,29):
-            send_net_packet(1, [0xf0, 0x13, 0x01, 0x10, 32 + Vu_ch, vu_scale_msb[message[2]-16], vu_scale_lsb[message[2]-16], 0xf7])
+        if message[2] in range(0, 16):
+            send_net_packet(1,
+                            [0xf0, 0x13, 0x01, 0x10, Vu_ch, vu_scale_msb[message[2]], vu_scale_lsb[message[2]], 0xf7])
+        if message[2] in range(16, 29):
+            send_net_packet(1, [0xf0, 0x13, 0x01, 0x10, 32 + Vu_ch, vu_scale_msb[message[2] - 16],
+                                vu_scale_lsb[message[2] - 16], 0xf7])
 
 
 def mackie(message):
@@ -179,18 +179,18 @@ def mackie(message):
         send_net_packet(1, [0xf0, 0x13, 0x01, 0x00, message[1] - 48 + fader_offset, pan_scale_l[pan],
                             pan_scale_r[pan], 0xf7])
 
-    #4char Channel Display - V,,ery basic - needs logic to handle if you move tracks around.
+    # 4char Channel Display - V,,ery basic - needs logic to handle if you move tracks around.
     if message[0:6] == [240, 0, 0, 102, 20, 18]:
-        #some cursor magic numbers (to found out what channel the text belongs to)
+        # some cursor magic numbers (to found out what channel the text belongs to)
         led_channel_map = [0x38, 0x40, 0x48, 0x4d, 0x54, 0x5b, 0x62, 0x69]
-        ch = min(led_channel_map, key=lambda x:abs(x-message[6]))
+        ch = min(led_channel_map, key=lambda x: abs(x - message[6]))
         ch = led_channel_map.index(ch)
         msg_len = len(message)
 
-        l = message[7:msg_len-1]
-        #combine to a acsiistring + removes spaces (aka 32)
+        l = message[7:msg_len - 1]
+        # combine to a acsiistring + removes spaces (aka 32)
         acsiistrin = "".join([chr(c) for c in l if c is not 32])
-        print("incomning display update - CH", ch, "msg",  acsiistrin)
+        print("incomning display update - CH", ch, "msg", acsiistrin)
         ch_display_text(ch, acsiistrin)
 
 
@@ -241,7 +241,7 @@ def choose_net_interface():
         d = d.contents.next
 
     interface = d.contents.name
-    #fp = pcap_open_live(interface, 1024, 1, 1000, errbuf)
+    # fp = pcap_open_live(interface, 1024, 1, 1000, errbuf)
     print("will use:", d.contents.description)
 
 
@@ -310,14 +310,16 @@ def send_ackt_packet(c1, c2):
     time.sleep(0.001)
     pcap_sendpacket(fp, convert_to_ctype(act_packet), len(act_packet))
 
+
 def open_ackt_packet():
     global fp
-    #net_counter()  # not sure if ack needs to be counted
+    # net_counter()  # not sure if ack needs to be counted
     ack = hexstring_to_list("001000000000000000000000a000000000")
     ack[10:11] = 0, 0
     act_packet = brascast_addr + mac_computer + net_protocol + ack
     time.sleep(0.001)
     pcap_sendpacket(fp, convert_to_ctype(act_packet), len(act_packet))
+
 
 def keep_alive():
     while (True):
@@ -398,7 +400,6 @@ if __name__ == '__main__':
     th = threading.Thread(target=start_pcap_loop)
     th.daemon = True
     th.start()
-
 
     while not mac_c24:
         print("Waiting for Control 24")
